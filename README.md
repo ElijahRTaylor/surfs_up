@@ -9,7 +9,7 @@ The analysis should contain the following:
 In an effort to provide our stakeholders with more information about temperature trends in Oahu before opening the surf shop, we are asked to provide them with  temperature data for the months of June and December in Oahu.  They're hoping to use this data to determine if the surf and ice cream shop business is sustainable as a year-round business.
 
 
-## Results:
+## Results
 
 From doing our analysis on the temparature data for Oahu in the months of June and December, we got the following results.
 
@@ -24,7 +24,7 @@ From doing our analysis on the temparature data for Oahu in the months of June a
 3. We had a total of 1700 recorded temparatures being recorded in June months and 1517 temperatures recorded in December  months.
 
 
-## Summary:
+## Summary
 Based on the results of the analysis, we can see that the temperature in Oahu does not have major differences between June and December.  There's only a difference of 4 degrees between the average temperature in June and December.  It would also help if we also performed a query to gather the precipitation data during those months.  We could do so by using the below query for June and then updating it for December.
 ```
 june_precip = session.query(Measurement.date, Measurement.prcp).filter(extract('month',Measurement.date) ==6).all()
