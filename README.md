@@ -1,9 +1,4 @@
 # surfs_up
-
-For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
-
-The analysis should contain the following:
-
 ## Overview
 
 In an effort to provide our stakeholders with more information about temperature trends in Oahu before opening the surf shop, we are asked to provide them with  temperature data for the months of June and December in Oahu.  They're hoping to use this data to determine if the surf and ice cream shop business is sustainable as a year-round business.
